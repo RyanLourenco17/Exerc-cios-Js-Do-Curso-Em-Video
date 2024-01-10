@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contador de Passos</title>
+</head>
+<body>
+    <header>
+        <h1>Contador de Passos</h1>
+    </header>
+    <section>
+        <form>
+            <div class="inputs">
+                <div class="start">
+                    <label for="start">Início:</label>
+                    <input type="number" name="start" id="start">
+                </div>
+                <div class="end">
+                    <label for="end">Fim:</label>
+                    <input type="number" name="end" id="end">
+                </div>
+                <div class="step">
+                    <label for="step">Passo:</label>
+                    <input type="number" name="step" id="step">
+                </div>
+                <input class="btn" type="button" value="Contar" onclick="count()">
+            </div>
+        
+            <div class="output">
+                Preparando a contagem
+            </div>
+        </form>
+        
+    </section>
+    <footer>
+        <span>&copy; CursoemVideo</span>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
