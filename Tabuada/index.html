@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <form>
+            <div class="inputs">
+                <label for="number">Número:</label>
+                <input type="number" name="number" id="number">
+                <input class="btn" type="button" value="Gerar Tabuada" onclick="toGenerate()">
+            </div>
+            <div class="output">
+                <select name="tabuada" id="selTab" size="11">
+                    <option>Digite um número acima</option>
+                </select>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <span>&copy; CursoemVideo</span>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(10, 152, 253);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 5%;
+}
+
+body header{
+    margin-bottom: 2%;
+}
+
+body header h1{
+    color: whitesmoke;
+}
+
+form{
+    background-color: whitesmoke;
+    padding: 8% 4%;
+    border-radius: 10px;
+    height: 400px;
+    width: 450px;
+    margin-bottom: 3%;
+}
+
+form .btn{
+    background: linear-gradient(#e1e1e1, #d1cfcf);
+    padding: 0.5% 2%;
+    cursor: pointer;
+    border: 1px solid #a2a0a0;
+}
+.output{
+    display: flex;
+    justify-content: center;
+}
+
+.output select{
+    margin-top: 10%;
+    padding: 10px;
+    background-color: rgb(202, 245, 248);
+    overflow: hidden;
+    
+}
+
+footer span{
+    color: whitesmoke;
+}
